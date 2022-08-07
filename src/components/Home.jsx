@@ -9,7 +9,7 @@ const Home = () => {
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full md:w-[768px]'>
-                <Typed className='text-4xl sm:text-7xl font-bold text-white '
+                <Typed className='text-4xl sm:text-7xl font-bold text-white font-title'
                     strings={[
                         'Hello World!',
                         `I'm Daisuke`,
@@ -19,6 +19,8 @@ const Home = () => {
                 <p className='text-gray-500 py-4 max-w-md'>
                     情報工学を学んでいる修士1年です。<br />
                     クラウドコンピューティングの研究をしています。<br />
+                    I'm a first year master's student studying computer science.<br />
+                    I'm doing research on cloud computing.
                 </p>
 
                 <div>

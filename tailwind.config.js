@@ -7,6 +7,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       signature: ['Delius Swash Caps'],
+      title: ['Raleway'],
     },
   },
   plugins: [],
