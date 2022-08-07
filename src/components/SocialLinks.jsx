@@ -1,7 +1,8 @@
 import React from 'react';
-import {FaGithub, FaLinkedin} from "react-icons/fa";
-import {HiOutlineMail} from "react-icons/hi";
-import {BsFillPersonLinesFill} from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFacebook } from "react-icons/bs";
+import wantedly from "../assets/wantedly.png";
 
 const SocialLinks = () => {
     const links = [
@@ -9,10 +10,10 @@ const SocialLinks = () => {
             id:1,
             child: (
                 <>
-                    LinkedIn<FaLinkedin size={30}/>
+                    Wantedly<img src={wantedly} width={50} style={{marginLeft:"1.1rem"}} alt="wantedly"/>
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.wantedly.com/id/daisuke_katayama_dbp',
             style: 'rounded-tr-md'
         },
         {
@@ -28,19 +29,19 @@ const SocialLinks = () => {
             id:3,
             child: (
                 <>
-                    Mail<HiOutlineMail size={30}/>
+                    Facebook<BsFacebook size={30}/>
                 </>
             ),
-            href: 'mailto:daisuke23bubu@gmail.com',
+            href: 'https://www.facebook.com/profile.php?id=100080023538524',
         },
         {
             id:4,
             child: (
                 <>
-                    Resume<BsFillPersonLinesFill size={30}/>
+                    Mail<HiOutlineMail size={30}/>
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'mailto:daisuke23bubu@gmail.com',
             style: 'rounded-br-md'
         },
     ]
